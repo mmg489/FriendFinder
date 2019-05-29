@@ -1,0 +1,48 @@
+body{
+    background-image: url("https://res.cloudinary.com/teepublic/image/private/s--67n4DNWq--/t_Preview/b_rgb:191919,c_limit,f_jpg,h_630,q_90,w_630/v1524857998/production/designs/2634252_0.jpg")
+}
+
+.jumbotron{
+    font-family: 'Indie Flower', cursive;;
+    text-align: center;
+    background-color: lightyellow;
+    margin-left: 20%;
+    margin-right:20%;
+    margin-top: 2%;
+    border-radius: 30%;
+    border: solid red 2px;
+}
+
+.display-4{
+    font-size: 100px;
+}
+
+#start-btn{
+    border-radius: 35%;
+    width: 20%;
+    padding: 2%;
+    font-size: 30px;
+    background-color: darkorchid;
+    margin-top: 2%;
+}
+
+.forma {
+    background-color: goldenrod;
+    padding: 2%;
+    border-radius: 3%;
+}
+
+#start-btn hover{
+    background-color: blueviolet;
+}
+
+h3 {
+    font-weight: 30%;
+    margin: 2%;
+}
+
+h4{
+    font-size: 20px;
+    margin: 1%;
+    font-weight: 80%;
+}

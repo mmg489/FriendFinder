@@ -1,4 +1,4 @@
-var friends = [
+var friendList = [
     {
         name: "Ross",
         photo: "https://i.gifer.com/z02.gif",
@@ -31,5 +31,5 @@ var friends = [
     },
 ];
 
-module.exports = friends;
+module.exports = friendList;
 
