@@ -6,12 +6,12 @@ The application will take in results from users' surveys then compare their resu
 
 The survey has 10 questions, answers to the survey questions are on a scale of 1-5 based on how much the user agrees or disagrees.
 <br>
-####Technical details
-######The application uses Express to handle routing
+<h4>Technical details<h4>
+<h6>The application uses Express to handle routing</h6>
 
-######The server.js file uses the npm packages: express, body-parser, path.
+<h6>The server.js file uses the npm packages: express, body-parser, path.</h6>
 
-######The html-routes.js file should include two routes:
+<h6>The html-routes.js file should include two routes:</h6>
 
 *A GET Route to /survey which displays the survey page.
 *A USE route that leads to home.html which displays the home page.
