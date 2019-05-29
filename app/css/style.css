@@ -40,11 +40,13 @@ body{
 
 h3 {
     font-weight: 30%;
+    font-family: 'Indie Flower', cursive;
     margin: 2%;
 }
 
 h4{
     font-size: 20px;
+    font-family: 'Indie Flower', cursive;
     margin: 1%;
     font-weight: 80%;
 }
