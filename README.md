@@ -6,7 +6,7 @@ The application will take in results from users' surveys then compare their resu
 
 The survey has 10 questions, answers to the survey questions are on a scale of 1-5 based on how much the user agrees or disagrees.
 <br>
-Technical details
+<h1>Technical details<h1>
 The application uses Express to handle routing
 
 The server.js file uses the npm packages: express, body-parser, path.
@@ -21,7 +21,7 @@ A GET route with the url /api/friends. This will be used to display a JSON of al
 A POST route /api/friends. This will be used to handle incoming survey results. This route will also be used to handle the compatibility logic.
 Compatibility will be determined based on the following.
 
-Each user's results is converted into a simple array of numbers (ex: [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]).
+Each user's results is converted into a simple array of numbers (ex: [1, 4, 3, 2, 4, 1, 5, 4, 2, 3]).
 
 Then will compare the difference between the user's scores against other users' scores, question by question. Then will add up the differences to calculate the totalDifference.
 
